@@ -1,10 +1,356 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h3> Hello World </h3>
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Webpage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.min.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.min.js"></script>
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid" style="padding: 0">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#about-contact">
+          <img class="img-responsive" alt="Laura Barluzzi profile picture" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/950930/profile/profile-80_1.jpg" /></a>
+        <a href="#about-contact" class="navbar-text band-text"> Laura Barluzzi</a>
+      </div> <!--"navbar-header"-->
+      
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="myNavbar">
+          <li data-menuanchor="home-page" class="active"><a href="#home-page">Home</a></li>
+          <li data-menuanchor="coding"><a href="#coding">Coding</a></li>
+          <li data-menuanchor="art"><a href="#art">Art</a></li>
+          <li data-menuanchor="NGOs"><a href="#NGOs">NGOs</a></li>
+          <li data-menuanchor="about-contact"><a href="#about-contact">Contact</a></li>
+        </ul>
+      </div> <!--"collapse navbar-collapse"-->
+      
+    </div> <!--"container-fluid"-->
+  </nav>
+
+  <div id="fullpage" style="position: relative">
+
+    <div class="section" id="home-page0">
+
+      <div class="container margin-top">
+        <div class="element">
+          <div class="title">
+            Web developer-designer, artist & social entrepreneur
+          </div>
+          <!--"title"-->
+          <div class="subtitle">
+            the portfolio where you find the perfect mix between tech-efficiency, creative-thinking and social justice
+          </div>
+          <!--"subtitle"-->
+          <ul class="socialMedia">
+            <li><a href="https://github.com/laura-barluzzi"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-github"></i></button></a></li>
+            <li><a href="https://www.linkedin.com/in/laura-barluzzi-4602015b"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-linkedin"></i></button></a></li>
+            <li><a href="https://www.facebook.com/search/top/?q=Laura+Barluzzi&init=public"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-facebook" aria-hidden="true"></i></button></a></li>
+            <li><a href="https://www.freecodecamp.com/laura-barluzzi"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-free-code-camp"></i></button></a></li>
+          </ul>
+
+        </div>
+        <!--"element"-->
+      </div>
+      <!--"container"-->
+
+    </div>
+    <!--"section"-->
+
+    <div class="section" id="coding1">
+      <div class="container-fluid">
+        <div class="row row-margin">
+          <div class="col-xs-6 col-md-6 col-lg-6">
+            <div class="container-box">
+              <div class="element">
+                <div class="title">
+                  Coding
+                </div>
+                <!--title-->
+                <div class="subtitle">
+                  In 2010 I graduated from an Italian technical highschool as "accountant & programmer". I used to program in PASCAL and SQL. Since July 2016 I decided to self-learn programming and I know code in PYTHON, HTML, CSS and JavaScript.
+                </div>
+                <!--"subtitle"-->
+              </div>
+              <!--"element"-->
+            </div>
+            <!--"container-box"-->
+          </div>
+          <!--"col-md-6"-->
+          <div class="col-xs-6">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img class="img-responsive img-dimention" src="data:image/webp;base64,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"
+                      alt="Learn Python the Hard Way cover" />
+                    <p>Learn Python the Hard Way exercises</p>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img class="img-responsive img-dimention" src="http://www.liosite.com/system/wp-content/uploads/2012/10/Cercare-Terzani.jpg" alt="Tiziano Terzani" />
+                    <div class="caption">
+                      <p>Tiziano Terzani tribute page</p>
+                    </div>
+                    <!--"caption"-->
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img class="img-responsive img-dimention" src="https://achievement-images.teamtreehouse.com/badges_intro_to_html_css_stage-01.png" alt="HTML CSS" />
+                    <div class="caption">
+                      <p>Portfolio Webpage</p>
+                    </div>
+                    <!--"caption"-->
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img class="img-responsive img-dimention" src="#" alt="#" />
+                    <div class="caption">
+                      <p>Title</p>
+                    </div>
+                    <!--"caption"-->
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img class="img-responsive img-dimention" src="#" alt="#" />
+                    <div class="caption">
+                      <p>Title</p>
+                    </div>
+                    <!--"caption"-->
+                  </a>
+                </div>
+                <!--"col-xs-6 col-md-3"-->
+              </div>
+              <!--"row"-->
+            </div>
+            <!--"container-fluid"-->
+
+          </div>
+          <!--"col-md-6"-->
+        </div>
+        <!--"row"-->
+      </div>
+      <!--"container-fluid"-->
+    </div>
+    <!--"section"-->
+
+    <div class="section" id="art2">
+      <div class="container margin-top">
+        <div class="element">
+          <div class="title">
+            Art & Design
+          </div>
+          <!--"title"-->
+          <div class="subtitle">
+            Since I was a child I performed very well in cretive tasks. As a self-learner artist I can sing, dance, paint (Acrylic, Guache, and Oil) and draw (Pencil & Pen). Further, I take photos and I make photo-edits, posters and logos by using Adobe Photoshop,
+            InDesign, Gimp and InkScape.
+          </div>
+          <!--"subtitle"-->
+        </div>
+        <!--"element"-->
+      </div>
+      <!--"container"-->
+      <div class="art-gallery-box">
+        <ul class="art-gallery">
+          <li>
+            <a href="#">
+              <img class="img-thumbnail img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/14/0c/63/140c630ef8775f9d65239816269d12cc.jpg" alt="..."></a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="img-thumbnail img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/14/0c/63/140c630ef8775f9d65239816269d12cc.jpg" alt="...">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="img-thumbnail img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/14/0c/63/140c630ef8775f9d65239816269d12cc.jpg" alt="...">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="img-thumbnail img-responsive" src="http://www.howdesign.com/wp-content/uploads/jedi-great-poster-design-great-poster-design.jpg" alt="...">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--"art-gallery-box"-->
+    </div>
+    <!--"section"-->
+
+    <div class="section" id="NGOs3">
+      <div class="box margin-top">
+        <div class="element">
+          <div class="container">
+            <div class="title">
+              NGOs & international development
+            </div>
+            <!--"title"-->
+            <div class="subtitle">
+              In the last 10-years I have covered many positions and gathered experiences at NGOs that promote human rights and sustainable development. Furthermore, I obtained a BSc in International Studies and a MSc in International Development.
+            </div>
+            <!--"subtitle"-->
+          </div>
+          <!--"container"-->
+
+          <div class="container-fluid">
+            <div class="row" style="margin-top: 1em">
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://donate.ascoderu.ca/" class="thumbnail"><img class="img-responsive" src="https://cvox.imgix.net/images/campaign_10198/57e33562f0d02_e7785a4ea912ecb96e4b5ec794640305.png?ixjsv=2.2.3&w=330" alt="Ascoderu Lokole logo">
+                  <p>COO & Fundraiser</p>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="https://www.amnesty.ca/" class="thumbnail"><img class="img-responsive" src="https://www.amnesty.ca/sites/amnesty/themes/candle_freeform_7/img/amnestyfacebook.jpg" alt="Amnesty International Canada logo">
+                  <p>Office & regional activist assistant</p>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://bccic.ca/research/" class="thumbnail"><img class="img-responsive" src="https://pbs.twimg.com/profile_images/621069732024684544/kzmVlQRt.jpg" alt="BCCIC logo">
+                  <p>Research Coordinator</p>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://bccic.ca/wp-content/uploads/2016/02/BCCIC_FinalTechnicalReport_IDRCSmallCitiesandTowns.pdf" class="thumbnail"><img class="img-responsive" src="https://pbs.twimg.com/profile_images/621069732024684544/kzmVlQRt.jpg" alt="Report cover">
+                  <p>Co-author final technical report</p>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://bccic.ca/wp-content/uploads/2016/06/Keeping-Track-Measuring-Progress-Toward-the-UN-Sustainable-Development-Goals-24.06.2016.pdf" class="thumbnail"><img class="img-responsive" src="http://bccic.ca/wp-content/uploads/2016/06/Keeping-Track.jpg" alt="Report cover">
+                  <p>Co-author & editor</p>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://www.samarcandascs.it/" class="thumbnail"><img class="img-responsive" src="data:image/png;base64,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"
+                    alt="Fair Trade logo">
+                  <p>Manager assistant</p>
+                </a>
+              </div>
+            </div>
+            <!--"row"-->
+          </div>
+          <!--"container-fluid"-->
+        </div>
+        <!--"element"-->
+      </div>
+      <!--"box margin-top"-->
+    </div>
+    <!--"section"-->
+
+
+    <div class="section" id="about-contact4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-md-6 col-lg-6">
+            <div class="container-box margin-top">
+              <div class="element">
+                <div class="title">About me
+                </div>
+                <!--"title-->
+                <img class="img-responsive img-thumbnail img-dimention" src="https://yt3.ggpht.com/-M26r_Ob772I/AAAAAAAAAAI/AAAAAAAAAAA/V5Yhf_YS298/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="Laura Barluzzi portrait">
+                <div class="about-text">I am particularly passionate about three things:</br> <b>1) Efficiency.</b> Unefficiency around me made me desire to be a programmer & web-developer.</br> <b>2) Justice.</b> Social unjustice gets under my skin since I was 15, and it drives
+                  me to be an active and involved good citizen. </br> <b>3) Creativity.</b> Through art I reach countless amount of satisfaction and inner peace.
+                </div>
+                <!--"subtitle"-->
+                <div class="contact-details">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>: laura.barluzzi@gmail.com / <i class="fa fa-skype" aria-hidden="true"></i>: la-barluzzi
+                </div>
+                <!--"contact-details"-->
+              </div>
+              <!--"element"-->
+            </div>
+            <!--"container-box"-->
+          </div>
+          <!--"col-xs-6 col-md-6 col-lg-6"-->
+
+          <div class="col-xs-6 col-md-6 col-lg-6">
+            <div class="container-box margin-top">
+              <div class="element">
+                <div class="title">Contact me
+                </div>
+                <!--"title-->
+                <form action="#">
+
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-xs-6 col-md-6" style="padding-left: 0; padding-right: 5px">
+                        <label for="fname">First Name:</br></label>
+                        <input type="text" id="fname" placeholder="your name"></input>
+                      </div>
+                      <!--"col-xs-6"-->
+                      <div class="col-xs-6 col-md-6" style="padding-left: 5px; padding-right: 0">
+                        <label for="lname">Last Name:</br></label>
+                        <input type="text" id="lname" placeholder="your surname"></input>
+                      </div>
+                      <!--"col-xs-6"-->
+                    </div>
+                    <!--"row"-->
+                  </div>
+                  <!--"container-fluid"-->
+
+                  <label for="e-address">Email Address:</br></label>
+                  <input type="text" id="e-address" placeholder="your email"></input>
+
+                  <textarea>Write here...</textarea>
+
+                  <input type="submit" class="btn btn-primary" value="Send">
+                </form>
+              </div>
+              <!--"element"-->
+            </div>
+            <!--"container-box"-->
+          </div>
+          <!--"col-xs-6 col-md-6 col-lg-6"-->
+
+        </div>
+        <!--"row"-->
+      </div>
+      <!--"container-fluid"-->
+    </div>
+    <!--"section"-->
+
+  </div>
+  <!--"fullpage"-->
+</div>
+<!--"container-fluid"-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js'></script>
+
     <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
