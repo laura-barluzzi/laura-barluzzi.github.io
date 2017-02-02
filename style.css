@@ -46,27 +46,22 @@ ul {
 
 /* sections background*/
 #home-page0 {
-  display: table;
   background-image: url("images/home-page.jpg");
 }
 
 #coding1 {
-  display: table;
   background-image: url("images/coding.jpeg");
 }
 
 #art2 {
-  display: table;
   background-image: url("images/art.jpg");
 }
 
 #NGOs3 {
-  display: table; 
   background-image: url("images/international.jpg");
 }
 
 #about-contact4 {
-  display: table;
   background-image: url("images/home-page.jpg");
 }
 
