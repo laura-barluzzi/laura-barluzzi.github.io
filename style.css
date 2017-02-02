@@ -78,13 +78,13 @@ ul {
 
 .container {
   display: table;
-  background-color:rgba(242,	242,	242, 0.8);
+  background-color:rgba(242, 242, 242, 0.8);
   border-radius: 1%;
 }
 
 .container-box {
   display: table;
-  background-color:rgba(242,	242, 242, 0.8);
+  background-color:rgba(242, 242, 242, 0.8);
   border-radius: 1%;
   width: 100%;
   padding: 4px;
