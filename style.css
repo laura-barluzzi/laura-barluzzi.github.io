@@ -148,6 +148,10 @@ ul {
   color: #333;
 }
 
+.profile-navbar {
+  height: 80px;
+  width: 80px;
+
 .img-dimention {
   max-height: 150px;
   max-width: 180px; 
