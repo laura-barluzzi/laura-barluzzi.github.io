@@ -44,7 +44,7 @@ ul {
   background: #222;  
 }
 
-/* sections backgrounds */
+/* sections backgrounds not working*/
 #home-page0 {
   display: table;
   background-image: url("images/home-page.jpg");
