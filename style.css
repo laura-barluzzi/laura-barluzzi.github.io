@@ -65,6 +65,54 @@ ul {
   background-image: url("images/home-page.jpg");
 }
 
+/* added style for refactured structure with flexbox*/
+
+.intro-box {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-color:rgba(242,	242,	242, 0.6);
+  border-radius: 1%;
+}
+
+.intro-box > .title {
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Lobster;
+  text-decoration: underline;
+  margin-bottom: 10px;
+
+}
+
+.intro-box > .subtitle {
+  display: block;
+  text-align: center; 
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;  
+}
+
+.box-display > a {
+  margin: 10px;
+  height: 200px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* added new style before this line */
+
 /* containers layouts */
 
 .box {
