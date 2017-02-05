@@ -196,6 +196,11 @@ ul {
   color: #333;
 }
 
+.caption {
+  text-align: center;
+  padding: 3px;
+}
+
 .profile-navbar {
   height: 80px;
   width: 80px;
