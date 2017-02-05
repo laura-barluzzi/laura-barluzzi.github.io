@@ -75,6 +75,7 @@ ul {
   align-items: center;
   background-color:rgba(242,	242,	242, 0.6);
   border-radius: 1%;
+  padding: 5px;
 }
 
 .intro-box > .title {
@@ -100,7 +101,8 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  align-content: flex-start;  
+  align-content: flex-start;
+  margin-top: 10px;
 }
 
 .box-display > a {
