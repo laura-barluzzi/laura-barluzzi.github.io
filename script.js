@@ -9,6 +9,12 @@ $(document).ready(function() {
     $(".navbar-collapse").collapse('hide');
   });
   
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  
+  
   /*
   $("#myNavbar a").click(function(event){
     var $a=$(event.target);
