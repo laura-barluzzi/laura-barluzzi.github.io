@@ -185,9 +185,12 @@ ul {
 }
 
 .thumbnail {
-  background-color:rgba(242,	242,	242, 0.6);
+  background-color:rgba(242, 242, 242, 0.6);
   border-radius: 1%;
   border: none;
+  padding: 5px;
+  width: 100px;
+  height: 200px;
   color: #333;
 }
 
