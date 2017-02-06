@@ -62,13 +62,10 @@ ul {
 }
 
 #about-contact4 {
-  background-color: #334477;
+  background-image: url("images/contact-me.jpg");
 }
 
 /* added style for refactured structure with flexbox*/
-.margin-top {
-  margin-top: 80px;
-}
 
 .intro-box {
   display: flex;
@@ -78,6 +75,7 @@ ul {
   background-color:rgba(242,	242,	242, 0.6);
   border-radius: 1%;
   padding: 5px;
+  margin-top: 80px;
 }
 
 .intro-box > .title {
@@ -115,6 +113,25 @@ ul {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.big-box {
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  margin-top: 80px;
+  background-color:rgba(242, 242, 242, 0.6);
+  margin-right: -1px;
+  margin-left: -1px;
+  }
+  
+.big-box > .half-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10px 10px 10px 20px;
+}
+
 /* added new style before this line */
 
 .modal-formatting {
@@ -213,6 +230,16 @@ ul {
 
 .img-dimention {
   max-height: 140px;
+}
+.profile-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white; 
+  margin-bottom: 20px;
+  
 }
 
 .art-gallery-box {
