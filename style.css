@@ -107,8 +107,8 @@ ul {
   align-content: center;
   margin-top: 80px;
   background-color:rgba(242, 242, 242, 0.6);
-  margin-right: -1px;
-  margin-left: -1px;
+  margin-right: 0px;
+  margin-left: 0px;
   }
   
 .big-box > .half-box {
