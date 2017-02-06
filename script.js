@@ -15,6 +15,44 @@ $(document).ready(function() {
   });
   
   
+/* list of objects with job information */
+  var job1 = {title: "Chief Operation Officer & Fundraiser",
+              employer: '<p><b>Employer: </b><a href="http://ascoderu.ca" target="_blank">Ascoderu</a></p>',
+              description: "<p><b>Description: </b>I am supporting the Lokole project of Ascoderu by establishing key-partnerships, producing promotional materials, designing the new website and managing the workload of a team of three people. Lokole aims to bring free emails in rural DRC in 2017.</p>",
+              reference: "<p><b>Reference: </b>Nzola Swasisa CEO, ascoderu.opwen@gmail.com</p>"};
+   $("#job1").data("job", job1); 
+   
+   var job2 = {title: "Office & Regional Activist Assistant",
+              employer: '<p><b>Employer: </b><a href="https://www.amnesty.ca/" target="_blank">Amnesty International</a></p>',
+              description: '<p><b>Description: </b>For months I helped with the organization of events such as the Just Film Festival and the “Focus on Syria” event screening refugees’ documentaries. Further, for 2 weeks I was hired as Office Assistant and I run the office while coordinating high-school volunteers.</p>',
+              reference: "<p><b>Reference: </b>Don Wright, DWright@amnesty.ca</p>"};
+   $("#job2").data("job", job2);
+   
+   var job3 = {title: "Research & Project Coordinator",
+              employer: '<p><b>Employer: </b><a href="https://www.bccic.ca/" target="_blank">British Columbia Council for International Cooperation (BCCIC)</a></p>',
+              description: "<p><b>Description: </b>I have conducted research and coordinated projects. I supervised six UBC students during their internship and I presented at the CASID conference on 1st June 2016 on behalf of the BCCIC. The focus of my research space from international cooperation in small cities to the SDGs. I co-authored and co-edited two reports.</p>",
+              reference: "<p><b>Reference: </b>Mike Simpson, mike@bccic.ca</p>"};
+   $("#job3").data("job", job3);
+              
+   var job6 = {title: "General Assistant",
+              employer: '<p><b>Employer: </b><a href="http://www.samarcandascs.it/" target="_blank">Samarcanda FairTrade Shop</a></p>',
+              description: "<p><b>Description: </b>Samarcanda is a fairtrade social co-operative and while volunteering there I learned about global supply chain, worker’s right infringement and related projects. My role covered cash book keeping, project promotion and other general assistant tasks.</p>",
+              reference: "<p><b>Reference: </b>Antonella Capraro, samarcanda.belluno@livecom.it</p>"};
+   $("#job6").data("job", job6);      
+              
+              
+  $("a[rel='modal']").click(function(event){
+    var clicked = $(this);
+    var job = clicked.data("job");
+
+    var $text = $('<div></div>').addClass("modal-formatting").html(job.employer + job.description + job.reference);
+    BootstrapDialog.show({
+      title: job.title,
+      message: $text,
+    });
+  });
+  
+  
   /*
   $("#myNavbar a").click(function(event){
     var $a=$(event.target);
