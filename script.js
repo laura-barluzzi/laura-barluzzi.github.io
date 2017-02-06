@@ -45,9 +45,11 @@ $(document).ready(function() {
     var clicked = $(this);
     var job = clicked.data("job");
 
-    var $text = $('<div></div>').addClass("modal-formatting").html(job.employer + job.description + job.reference);
+    var $title = $('<div></div>').css("font-size", "30px").html(job.title);
+    var $text = $('<div></div>').addClass("subtitle").html(job.employer + job.description + job.reference);
+    
     BootstrapDialog.show({
-      title: job.title,
+      title: $title,
       message: $text,
     });
   });
