@@ -192,6 +192,13 @@ ul {
   margin-bottom: 20px;  
 }
 
+#about-contact4 .intro-box {
+  background-color:rgba(242,	242,	242, 0.4);
+}
+.subtitle i {
+  margin-top: 20px;
+}  
+
  input[type=text] {
   width: 100%;
   padding: 5px 5px;

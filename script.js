@@ -4,6 +4,8 @@ $(document).ready(function() {
     menu:"#myNavbar",
     scrollBar: true
   });
+  
+  
 //So the Mobile Nav Hides When a Link is Clicked
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
@@ -54,6 +56,7 @@ $(document).ready(function() {
     });
   });
   
+  $("#contact-form").hide();
   
   /*
   $("#myNavbar a").click(function(event){
