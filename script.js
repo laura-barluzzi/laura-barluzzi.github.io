@@ -1,10 +1,11 @@
+
 $(document).ready(function() {           
   $('#fullpage').fullpage({
     anchors:['home-page', 'coding',"art","NGOs","about-contact"],
     menu:"#myNavbar",
     scrollBar: true
   });
-  
+
   
 //So the Mobile Nav Hides When a Link is Clicked
   $(".navbar-nav li a").click(function(event) {
