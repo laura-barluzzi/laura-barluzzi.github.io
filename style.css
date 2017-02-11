@@ -5,6 +5,7 @@ body {
   overflow-y: hidden;
 }
 
+
 /* header styling */
 .navbar-fixed-top {
     top: 0;
@@ -98,9 +99,9 @@ ul {
 }
 
 .box-display > a {
-  margin: 5px;
-  height: 200px;
-  width: 150px;
+  margin: 3px;
+  height: 180px;
+  width: 130px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -167,7 +168,7 @@ ul {
   border: none;
   padding: 5px;
   width: 100px;
-  height: 200px;
+  height: 130px;
   color: #333;
 }
 
@@ -177,12 +178,12 @@ ul {
 }
 
 .img-dimention {
-  max-height: 140px;
+  max-height: 110px;
 }
 
 .img-thumbnail {
-  max-width: 180px;
-  height: 200px;
+  max-width: 130px;
+  height: 180px;
 }
 
 /* formatting only in contact */
