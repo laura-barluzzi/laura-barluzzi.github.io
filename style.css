@@ -104,6 +104,9 @@ ul {
   width: 130px;
   display: flex;
   flex-direction: column;
+  /* Android 2.3 understands the first declaration and ignores the second */
+  justify-content: space-between;
+  /* Modern browsers overwrite the first declaration with the second */ 
   justify-content: space-around;
 }
 
