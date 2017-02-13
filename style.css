@@ -174,7 +174,7 @@ ul > li {
   display: inline-block;
 }
 
-.caption {
+.thumbnail .caption {
   text-align: center;
   padding: 0;
 }
