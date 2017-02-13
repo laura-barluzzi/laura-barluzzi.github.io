@@ -8,14 +8,13 @@ body {
 
 /* header styling */
 .navbar-fixed-top {
-    top: 0;
-    border-width: 0px !important;
+  top: 0;
+  border-width: 0px !important;
 }
 
 .fa-bars {
   color: white;
 } 
-
 
 .navbar {
   height: auto;
@@ -167,7 +166,7 @@ ul > li {
   background-color:rgba(242, 242, 242, 0.6);
   border-radius: 1%;
   border: none;
-  padding: 5px;
+  /*padding: 5px;*/
   margin: 3px;
   height: 180px;
   width: 130px;
