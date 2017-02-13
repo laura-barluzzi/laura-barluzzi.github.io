@@ -186,6 +186,7 @@ ul > li {
 .img-thumbnail {
   max-width: 130px;
   height: 180px;
+  margin: 3px;
 }
 
 /* formatting only in contact */
