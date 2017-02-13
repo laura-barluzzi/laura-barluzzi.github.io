@@ -166,25 +166,28 @@ ul > li {
   background-color:rgba(242, 242, 242, 0.6);
   border-radius: 1%;
   border: none;
-  /*padding: 5px;*/
   margin: 3px;
   height: 180px;
   width: 130px;
   color: #333;
+  text-align: center;
   display: inline-block;
 }
 
+/*
 .thumbnail .caption {
   text-align: center;
   padding: 0;
-}
+}*/
 
-.img-dimention {
-  max-height: 110px;
+.thumbnail .img-dimention {
+  height: 130px;
+  width: 110px;
+  margin-bottom: 10px;
 }
 
 .img-thumbnail {
-  max-width: 130px;
+  width: 130px;
   height: 180px;
   margin: 3px;
 }
