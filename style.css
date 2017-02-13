@@ -204,6 +204,18 @@ ul > li {
   margin-bottom: 20px;  
 }
 
+@media (max-width: 500px) {
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto
+    }
+}
+
+
+
 #about-contact4 .intro-box {
   background-color:rgba(242,	242,	242, 0.4);
 }
