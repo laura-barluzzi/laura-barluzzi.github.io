@@ -92,10 +92,7 @@ ul {
 .box-display {
   display: flex;
   flex-wrap: wrap;
-  /* Android 2.3 understands the first declaration and ignores the second */
-  justify-content: space-between;
-  /* Modern browsers overwrite the first declaration with the second */ 
-  justify-content: space-around;
+  justify-content: center
   align-items: flex-start;
   align-content: flex-start;
   margin-top: 10px;
