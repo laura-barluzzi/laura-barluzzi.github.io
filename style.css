@@ -172,6 +172,7 @@ ul > li {
   height: 180px;
   width: 130px;
   color: #333;
+  display: inline-block;
 }
 
 .caption {
