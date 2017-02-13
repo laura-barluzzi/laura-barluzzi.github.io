@@ -99,9 +99,6 @@ ul {
 }
 
 .box-display > a {
-  margin: 3px;
-  height: 180px;
-  width: 130px;
   display: flex;
   flex-direction: column;
 
@@ -171,8 +168,9 @@ ul > li {
   border-radius: 1%;
   border: none;
   padding: 5px;
-  width: 100px;
-  height: 130px;
+  margin: 3px;
+  height: 180px;
+  width: 130px;
   color: #333;
 }
 
