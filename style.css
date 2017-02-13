@@ -92,7 +92,10 @@ ul {
 .box-display {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* Android 2.3 understands the first declaration and ignores the second */
+  justify-content: space-between;
+  /* Modern browsers overwrite the first declaration with the second */ 
+  justify-content: space-around;
   align-items: flex-start;
   align-content: flex-start;
   margin-top: 10px;
@@ -104,10 +107,7 @@ ul {
   width: 130px;
   display: flex;
   flex-direction: column;
-  /* Android 2.3 understands the first declaration and ignores the second */
-  justify-content: space-between;
-  /* Modern browsers overwrite the first declaration with the second */ 
-  justify-content: space-around;
+
 }
 
 .big-box {
