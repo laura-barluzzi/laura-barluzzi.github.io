@@ -210,10 +210,22 @@ ul > li {
     height: 80px;
     border-radius: 5px;
     display: inline-block;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-bottom: 10px;
     }
+    
+  .subtitle i {
+    display: block;
+  }
+    
+  .after-slash:after {
+    content: "";
+  }
 }
 
+.after-slash:after {
+  content: " / ";
+}
 
 
 #about-contact4 .intro-box {
