@@ -219,7 +219,7 @@ ul > li {
   }
     
   .after-slash:after {
-    content: "";
+    content: "" !important;
   }
 }
 

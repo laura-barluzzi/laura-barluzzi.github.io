@@ -1,3 +1,18 @@
+function setBackgroundColor(heightScreen) {
+  if (heightScreen > 1000) {
+    $("#home-page0").css("background-image", "none");
+    $("#home-page0").css("background-color", "#1252ba");
+    $("#coding1").css("background-image","none");
+    $("#coding1").css("background-color", "#ad7cc9");
+    $("#art2").css("background-image", "none");
+    $("#art2").css("background-color", "#ea7267");
+    $("#NGOs3").css("background-image", "none");
+    $("#NGOs3").css("background-color", "#6bea67");
+    $("#about-contact4").css("background-image", "none");
+    $("#about-contact4").css("background-color", "#edb874");
+  }
+}
+
 function checkDevice(height, width) {
   var small = [800, 1000];
   var heightIsLower = height < small[0];
@@ -21,7 +36,7 @@ $(document).ready(function() {
   var heightScreen = $(window).height(); 
   var widthScreen = $(window).width();
   console.log(heightScreen + " width = " + widthScreen);
-     
+  setBackgroundColor(heightScreen);
   setUpFullpage(checkDevice(heightScreen, widthScreen));      
 
 //So the Mobile Nav Hides When a Link is Clicked
