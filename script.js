@@ -54,7 +54,7 @@ $(document).ready(function() {
   var job1 = {title: "Chief Operation Officer & Fundraiser",
               employer: '<p><b>Employer: </b><a href="http://ascoderu.ca" target="_blank">Ascoderu</a></p>',
               description: "<p><b>Description: </b>I am supporting the Lokole project of Ascoderu by establishing key-partnerships, producing promotional materials, designing the new website and managing the workload of a team of three people. Lokole aims to bring free emails in rural DRC in 2017.</p>",
-              reference: "<p><b>Reference: </b>Nzola Swasisa CEO, ascoderu.opwen@gmail.com</p>"};
+              reference: "<p><b>Reference: </b>Nzola Swasisa CEO, info@ascoderu.ca</p>"};
    $("#job1").data("job", job1); 
    
    var job2 = {title: "Office & Regional Activist Assistant",
