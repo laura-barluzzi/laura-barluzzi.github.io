@@ -153,6 +153,7 @@ ul {
 .subtitle {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 /* links to social medias home page */
