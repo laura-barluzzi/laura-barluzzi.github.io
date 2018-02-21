@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(//fonts.googleapis.com/css?family=Lobster);
 
 body {
   padding-top: 70px;
@@ -14,7 +14,7 @@ body {
 
 .fa-bars {
   color: white;
-} 
+}
 
 .navbar {
   height: auto;
@@ -50,7 +50,7 @@ ul {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #3385ff;
-  background: #222;  
+  background: #222;
 }
 
 /* fullpage sections background*/
@@ -83,7 +83,7 @@ ul {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   background-color:rgba(242,	242,	242, 0.6);
   border-radius: 1%;
@@ -128,7 +128,7 @@ ul {
   margin-right: 0px;
   margin-left: 0px;
   }
-  
+
 .big-box > .half-box {
   display: -webkit-box;
   display: -moz-box;
@@ -221,8 +221,8 @@ ul > li {
   border-radius: 50%;
   border-style: solid;
   border-width: 3px;
-  border-color: white; 
-  margin-bottom: 20px;  
+  border-color: white;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 500px) {
@@ -234,11 +234,11 @@ ul > li {
     margin: 0 auto;
     margin-bottom: 10px;
     }
-    
+
   .subtitle .skype {
     display: block;
   }
-    
+
   .after-slash:after {
     content: "" !important;
   }
@@ -255,7 +255,7 @@ ul > li {
 
 .top-space {
   margin-top: 20px;
-}  
+}
 
  input[type=text] {
   width: 100%;
@@ -274,7 +274,7 @@ textarea {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8; 
+  background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
 }
