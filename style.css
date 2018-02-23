@@ -1,7 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Lobster);
 
 body {
-  padding-top: 70px;
   overflow-y: hidden;
 }
 
@@ -54,23 +53,19 @@ ul {
 }
 
 /* fullpage sections background*/
-#home-page0 {
+#home0 {
   background-image: url("images/home-page.jpg");
 }
 
-#coding1 {
+#work1 {
   background-image: url("images/coding.jpeg");
 }
 
-#art2 {
+#education2 {
   background-image: url("images/art.jpg");
 }
 
-#NGOs3 {
-  background-image: url("images/international.jpg");
-}
-
-#about-contact4 {
+#profile3 {
   background-image: url("images/contact-me.jpg");
 }
 
@@ -89,7 +84,6 @@ ul {
   border-radius: 1%;
   padding: 5px;
   text-align: center;
-  margin-top: 80px;
 }
 
 .box-display {
@@ -249,7 +243,7 @@ ul > li {
 }
 
 
-#about-contact4 .intro-box {
+#profile3 .intro-box {
   background-color:rgba(242,	242,	242, 0.4);
 }
 

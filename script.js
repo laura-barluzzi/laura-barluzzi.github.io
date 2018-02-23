@@ -1,15 +1,13 @@
 function setBackgroundColor(heightScreen) {
   if (heightScreen > 1000) {
-    $("#home-page0").css("background-image", "none");
-    $("#home-page0").css("background-color", "#1252ba");
-    $("#coding1").css("background-image","none");
-    $("#coding1").css("background-color", "#ad7cc9");
-    $("#art2").css("background-image", "none");
-    $("#art2").css("background-color", "#ea7267");
-    $("#NGOs3").css("background-image", "none");
-    $("#NGOs3").css("background-color", "#6bea67");
-    $("#about-contact4").css("background-image", "none");
-    $("#about-contact4").css("background-color", "#edb874");
+    $("#home0").css("background-image", "none");
+    $("#home0").css("background-color", "#1252ba");
+    $("#experience1").css("background-image","none");
+    $("#experience1").css("background-color", "#ad7cc9");
+    $("#education2").css("background-image", "none");
+    $("#education2").css("background-color", "#ea7267");
+    $("#profile3").css("background-image", "none");
+    $("#profile3").css("background-color", "#edb874");
   }
 }
 
@@ -22,9 +20,10 @@ function checkDevice(height, width) {
 
 function setUpFullpage(screenSize) {
   $('#fullpage').fullpage({
-    anchors:['home-page', 'coding',"art","NGOs","about-contact"],
+    anchors:['home', 'work', 'education', 'profile'],
     menu:"#myNavbar",
     scrollBar: true,
+    paddingTop: '70px',
     responsiveHeight: screenSize[0],
     responsiveWidth: screenSize[1],
   });
