@@ -23,6 +23,7 @@ function setUpFullpage(screenSize) {
     anchors:['home', 'work', 'education', 'profile'],
     menu:"#myNavbar",
     scrollBar: true,
+    scrollOverflow: true,
     paddingTop: '70px',
     responsiveHeight: screenSize[0],
     responsiveWidth: screenSize[1],
