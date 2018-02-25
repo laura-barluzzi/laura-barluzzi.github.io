@@ -23,8 +23,9 @@ function setUpFullpage(screenSize) {
     anchors:['home', 'work', 'education', 'profile'],
     menu:"#myNavbar",
     scrollBar: true,
+    verticalCentered: false,
     scrollOverflow: true,
-    paddingTop: '70px',
+    paddingTop: '80px',
     responsiveHeight: screenSize[0],
     responsiveWidth: screenSize[1],
   });
