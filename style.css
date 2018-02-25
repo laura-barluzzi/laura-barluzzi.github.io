@@ -71,9 +71,12 @@ ul {
   vertical-align: text-top;
 }
 
-#laura-img {
-  max-width: 50%;
-  max-height: 80%;
+#laura-img, #about {
+  width: 50%;
+}
+
+#about {
+  height: 100%
 }
 
 .horizontal-flex {
