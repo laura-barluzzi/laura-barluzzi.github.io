@@ -1,13 +1,11 @@
 function setBackgroundColor(heightScreen) {
   if (heightScreen > 1000) {
-    $("#home0").css("background-image", "none");
-    $("#home0").css("background-color", "#1252ba");
+    $("#profile0").css("background-image", "none");
+    $("#profile0").css("background-color", "#edb874");
     $("#experience1").css("background-image","none");
     $("#experience1").css("background-color", "#ad7cc9");
     $("#education2").css("background-image", "none");
     $("#education2").css("background-color", "#ea7267");
-    $("#profile3").css("background-image", "none");
-    $("#profile3").css("background-color", "#edb874");
   }
 }
 
@@ -20,10 +18,11 @@ function checkDevice(height, width) {
 
 function setUpFullpage(screenSize) {
   $('#fullpage').fullpage({
-    anchors:['home', 'work', 'education', 'profile'],
+    anchors:['profile', 'work', 'education'],
+    sectionsColor: ['#DFE2DB', '#DFE2DB', '#DFE2DB'],
     menu:"#myNavbar",
     scrollBar: true,
-    verticalCentered: false,
+    verticalCentered: true,
     scrollOverflow: true,
     paddingTop: '80px',
     responsiveHeight: screenSize[0],
