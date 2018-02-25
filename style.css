@@ -190,3 +190,9 @@ ul > li {
 .after-slash:after {
   content: " / ";
 }
+
+#intro-box {
+  background-color: white;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
