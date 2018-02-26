@@ -199,3 +199,14 @@ body {
     content: "" !important;
   }
 }
+
+@media (max-width: 500px) {
+  .cover {
+    height: auto;
+  }
+
+  .body-showcase {
+    height: auto;
+  }
+
+}
