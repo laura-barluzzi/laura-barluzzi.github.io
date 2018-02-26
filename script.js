@@ -19,7 +19,7 @@ function checkDevice(height, width) {
 function setUpFullpage(screenSize) {
   $('#fullpage').fullpage({
     anchors:['profile', 'work', 'education'],
-    sectionsColor: ['#DFE2DB', '#DFE2DB', '#DFE2DB'],
+    sectionsColor: ['rgb(165,215,234)', '#DFE2DB', '#DFE2DB'],
     menu:"#myNavbar",
     scrollBar: true,
     verticalCentered: true,

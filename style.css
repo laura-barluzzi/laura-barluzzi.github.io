@@ -42,16 +42,6 @@ ul {
   background: #222;
 }
 
-/* fullpage sections background*/
-
-#work1 {
-  background-image: url("images/coding.jpeg");
-}
-
-#education2 {
-  background-image: url("");
-}
-
 /* flex box containers */
 
 .vertical-flex {
@@ -66,19 +56,6 @@ ul {
   text-align: center;
 }
 
-#work1 > .fp-tableCell.fp-tableCell,
-#education2 > .fp-tableCell.fp-tableCell {
-  vertical-align: text-top;
-}
-
-#laura-img, #about {
-  width: 50%;
-}
-
-#about {
-  height: 100%
-}
-
 .horizontal-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -91,13 +68,21 @@ ul {
   align-content: flex-start;
 }
 
+#work1 > .fp-tableCell.fp-tableCell,
+#education2 > .fp-tableCell.fp-tableCell {
+  vertical-align: text-top;
+}
+
+#about {
+  height: 100%;
+}
+
 /* text styles */
 
 .title {
   font-size: 35px;
   font-weight: bold;
   font-family: Lobster;
-  text-decoration: underline;
   margin-bottom: 10px;
 }
 
@@ -137,8 +122,6 @@ ul > li {
 .thumbnail {
   position: relative;
   overflow: hidden;
-  width: 130px;
-  height: 150px;
   margin: 3px;
 }
 
@@ -166,16 +149,6 @@ ul > li {
 
 /* formatting only in contact */
 
-.profile-image {
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
-  margin-bottom: 20px;
-}
-
 @media (max-width: 500px) {
 
   .subtitle .skype {
@@ -195,4 +168,5 @@ ul > li {
   background-color: white;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
+  height: 450px;
 }
