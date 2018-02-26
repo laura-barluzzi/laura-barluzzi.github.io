@@ -37,11 +37,10 @@
           <i class="fa fa-bars"></i>
         </button>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="images/docs/resume.pdf" target="_blank">myResume</a></li>
-      </ul>
-
       <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="myResume">
+          <li><a href="images/docs/resume.pdf" target="_blank">myResume</a></li>
+        </ul>
         <ul class="nav navbar-nav navbar-right" id="myNavbar">
           <li data-menuanchor="profile"><a href="#profile">aboutMe</a></li>
           <li data-menuanchor="work"><a href="#work">myWork</a></li>
@@ -60,8 +59,30 @@
 
           <div class="vertical-flex" id="about">
             <div class="title">Hi, I'm Laura</div>
-            <div class="subtitle">A little bit of me.</div>
-            <div class="subtitle top-space">
+            <div class="subtitle">
+              I'm a <strong>Full Stack Software Developer</strong> and here you can see my programming projects
+              and studies. Most of my code is on github and you can visit my following accounts:
+            </div>
+            <ul id="socialMedia">
+              <li><a href="//github.com/laura-barluzzi" target="_blank"
+                     data-toggle="tooltip" title="GitHub"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-github"></i></button></a></li>
+              <li><a href="//www.linkedin.com/in/laura-barluzzi-4602015b" target="_blank"
+                     data-toggle="tooltip" title="Linkedin"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-linkedin"></i></button></a></li>
+              <li><a href="//codepen.io/Laura-Barluzzi/" target="_blank"
+                     data-toggle="tooltip" title="Codepen"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-codepen"></i></button></a></li>
+              <li><a href="//www.freecodecamp.com/laura-barluzzi" target="_blank"
+                     data-toggle="tooltip" title="FreeCodeCamp"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-free-code-camp"></i></button></a></li>
+            </ul>
+            <div class="subtitle">
+              When I don't code I like:
+              <ul id="hobbies">
+                <li><i class="fa fa-paw brown"></i> walking or playing with a sheltered dog/cat at the <a href="//www.aspca.org" target="_blank">ASPCA</a></li>
+                <li><i class="fa fa-coffee brown"></i> drinking some home-made roasted hipster coffee</li>
+                <li><span class="glyphicon glyphicon-globe green"></span> volunteering for a tech-for-good NGO</li>
+              </ul>
+            </div>
+
+            <div class="subtitle">
               <i class="fa fa-envelope" aria-hidden="true"></i>: <a href="mailto:laura@koalacoder.com" data-toggle="tooltip" title="send me an email">laura@koalacoder.com</a> <span class="after-slash"></span>
               <span class="skype"><i class="fa fa-skype" aria-hidden="true"></i>: labarluzzi</span>
             </div>
@@ -74,7 +95,7 @@
     <div class="section fp-auto-height-responsive" data-anchor="work" id="work1">
       <div class="container-fluid no-padding">
 
-        <div class="cover vertical-flex bg-white">
+        <div class="cover vertical-flex centered bg-white">
           <div class="title">My work</div>
           <div class="subtitle">After obtaining a programmer diploma and a front end certificate, today I code in Python, Javascript, HTML, and CSS. I'm currently deepening my skills and self-learning at www.freecodecamp.com &mdash; See my current projects on <a href="//github.com/laura-barluzzi?tab=repositories" target="_blank" data-toggle="tooltip" title="see my GitHub">github</a>.
           </div>
@@ -169,7 +190,7 @@
     <div class="section fp-auto-height-responsive" data-anchor="education" id="education2">
       <div class="container-fluid no-padding">
 
-        <div class="cover vertical-flex bg-white">
+        <div class="cover vertical-flex centered bg-white">
           <div class="title">Education</div>
           <div class="subtitle">After graduating as a programmer-accountant in high-school,
             I pursued international political studies at 3 universities: Edinbugh, Bath and Trento.
