@@ -9,8 +9,12 @@ body {
 }
 
 .cover {
-  height: 150px;
+  height: 25vh;
   background-color: rgb(165,215,234);
+}
+
+.body-showcase {
+  height: calc(75vh - 80px);
 }
 
 /* header styling */
@@ -66,11 +70,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
-#work1 > .fp-tableCell.fp-tableCell,
+#projects1 > .fp-tableCell.fp-tableCell,
 #education2 > .fp-tableCell.fp-tableCell {
   vertical-align: text-top;
 }
