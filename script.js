@@ -21,12 +21,11 @@ function setUpFullpage(screenSize) {
     anchors:['profile', 'projects', 'education'],
     sectionsColor: ['#adcbe3', '#adcbe3', '#adcbe3'],
     menu:"#myNavbar",
-    scrollBar: true,
-    verticalCentered: true,
     scrollOverflow: true,
     paddingTop: '80px',
-    responsiveHeight: screenSize[0],
-    responsiveWidth: screenSize[1],
+    afterRender: function() {
+      $('#website-content').removeClass('hidden');
+    }
   });
 }
 
