@@ -6,6 +6,7 @@ $(document).ready(function() {
     menu:"#myNavbar",
     scrollOverflow: true,
     paddingTop: '80px',
+    responsiveWidth: 700,
     afterRender: function() {
       $('#website-content').removeClass('hidden');
     }
