@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta property="og:type" content="website">
@@ -28,274 +28,244 @@
 </head>
 
 <body>
+  <div id="website-content" class="hidden">
 
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
 
       <div class="navbar-header">
-
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="#about-contact">
-          <img class="img-responsive profile-navbar" alt="Laura Barluzzi profile picture" src="images/profile.png"/></a>
-        <a href="#about-contact" class="navbar-text band-text"> Laura Koalacoder</a>
       </div>
-
       <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="myResume">
+          <li><a href="images/docs/resume.pdf" target="_blank">myResume</a></li>
+        </ul>
         <ul class="nav navbar-nav navbar-right" id="myNavbar">
-          <li data-menuanchor="home-page" class="active"><a href="#home-page">Home</a></li>
-          <li data-menuanchor="coding"><a href="#coding">Coding</a></li>
-          <li data-menuanchor="art"><a href="#art">Art</a></li>
-          <li data-menuanchor="NGOs"><a href="#NGOs">NGOs</a></li>
-          <li data-menuanchor="about-contact"><a href="#about-contact">Contact</a></li>
+          <li data-menuanchor="profile"><a href="#profile">aboutMe</a></li>
+          <li data-menuanchor="projects"><a href="#projects">myProjects</a></li>
+          <li data-menuanchor="education"><a href="#education">education</a></li>
         </ul>
       </div>
-
+    </div>
   </nav>
 
   <div id="fullpage">
-    <div class="section" id="home-page0">
-      <div class="container-fluid">
-        <div class="intro-box">
-          <div class="title">Software developer, designer &amp; social entrepreneur</div>
-          <div class="subtitle">
-              the Koalacoder portfolio &mdash; a mix of tech, creativity and social justice
-          </div>
-          <ul class="socialMedia">
-            <li><a href="//github.com/laura-barluzzi" target="_blank"
-                   data-toggle="tooltip" title="see my GitHub"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-github"></i></button></a></li>
-            <li><a href="//www.linkedin.com/in/laura-barluzzi-4602015b" target="_blank"
-                   data-toggle="tooltip" title="see my Linkedin"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-linkedin"></i></button></a></li>
-            <li><a href="//www.facebook.com/search/top/?q=Laura+Barluzzi&init=public" target="_blank"
-                   data-toggle="tooltip" title="see my Facebook"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-facebook" aria-hidden="true"></i></button></a></li>
-            <li><a href="//www.freecodecamp.com/laura-barluzzi" target="_blank"
-                   data-toggle="tooltip" title="see my FreeCodeCamp"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-free-code-camp"></i></button></a></li>
-          </ul>
+    <div class="section" data-anchor="profile" id="profile0">
+      <div class="container-fluid no-padding">
 
-        </div>
-      </div>
-    </div>
+        <div class="horizontal-flex" id="intro-box">
+          <img class="img-responsive" data-src="images/laura.JPG" id="laura-img">
 
-    <div class="section" id="coding1">
-      <div class="container-fluid">
-
-        <div class="intro-box">
-          <div class="title">Coding</div>
-          <div class="subtitle">After obtaining a programmer diploma and a front end certificate, today I code in Python, Javascript, HTML, and CSS. I'm currently deepening my skills and self-learning at www.freecodecamp.com &mdash; See my current projects on <a href="//github.com/laura-barluzzi?tab=repositories" target="_blank" data-toggle="tooltip" title="see my GitHub">github</a>.
-          </div>
-        </div>
-
-        <div class="box-display">
-
-          <a href="//github.com/laura-barluzzi/Learn-Python-hard-way" target="_blank"
-             data-toggle="tooltip" title="see GitHub repository">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding1.png"/>
-            Python exercises
+          <div class="vertical-flex" id="about">
+            <div class="title">Hi, I'm Laura</div>
+            <div class="subtitle">
+              I'm a <strong>Full Stack Software Developer</strong> and here you can see my programming
+              projects and education. Most of my code is on GitHub and you can visit my following accounts:
             </div>
-          </a>
-
-          <a href="//codepen.io/Laura-Barluzzi/full/ygvzyE/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-            <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding2.png"/>
-            Simon Game
+            <ul id="socialMedia">
+              <li><a href="//github.com/laura-barluzzi" target="_blank"
+                     data-toggle="tooltip" title="GitHub"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-github"></i></button></a></li>
+              <li><a href="//www.linkedin.com/in/laura-barluzzi-4602015b" target="_blank"
+                     data-toggle="tooltip" title="Linkedin"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-linkedin"></i></button></a></li>
+              <li><a href="//codepen.io/Laura-Barluzzi/" target="_blank"
+                     data-toggle="tooltip" title="Codepen"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-codepen"></i></button></a></li>
+              <li><a href="//www.freecodecamp.com/laura-barluzzi" target="_blank"
+                     data-toggle="tooltip" title="FreeCodeCamp"><button class="btn btn-primary btn-circle btn-lg"><i class="fa fa-fw fa-free-code-camp"></i></button></a></li>
+            </ul>
+            <div class="subtitle">
+              When I don't code I like:
+              <ul id="hobbies">
+                <li><i class="fa fa-paw"></i> walking or playing with a sheltered dog/cat at the <a href="//www.aspca.org" target="_blank">ASPCA</a></li>
+                <li><i class="fa fa-coffee"></i> drinking some home-roasted coffee</li>
+                <li><span class="glyphicon glyphicon-globe"></span> volunteering for an international development NGO</li>
+              </ul>
             </div>
-          </a>
 
-          <a href="//codepen.io/Laura-Barluzzi/full/VPrqML/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding3.png"/>
-            Tic Tac Toe game
+            <div class="subtitle">
+              <i class="fa fa-envelope" aria-hidden="true"></i>: <a href="mailto:laura@koalacoder.com" data-toggle="tooltip" title="send me an email">laura@koalacoder.com</a> <span class="after-slash"></span>
+              <span class="skype"><i class="fa fa-skype" aria-hidden="true"></i>: labarluzzi</span>
             </div>
-          </a>
-
-          <a href="//codepen.io/Laura-Barluzzi/full/GNVowN/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding4.png"/>
-            Wikipedia Viewer
-            </div>
-          </a>
-
-          <a href="//codepen.io/Laura-Barluzzi/full/pRemdd/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding5.jpg"/>
-            Pomodoro clock
-            </div>
-          </a>
-
-          <a href="//codepen.io/Laura-Barluzzi/full/OWXJwy/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding6.jpg"/>
-            Calculator
-            </div>
-          </a>
-
-          <a href="//codepen.io/Laura-Barluzzi/full/GrKbNx/" target="_blank"
-             data-toggle="tooltip" title="see on Codepen">
-             <div  class="thumbnail">
-            <img class="img-dimention" data-src="images/coding7.png"/>
-            Twitch TV stream
-            </div>
-          </a>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="section" id="art2">
-      <div class="container-fluid">
-
-        <div class="intro-box">
-          <div class="title">Art &amp; Design </div>
-          <div class="subtitle">Since I was a child I performed well in creative tasks.
-          I mainly take photos and I make photo-edits, posters and logos by using Adobe
-          Photoshop, InDesign, Gimp and InkScape.
           </div>
         </div>
 
-        <div class="box-display">
+      </div>
+    </div>
 
-            <a href="images/larger/art1.jpg" data-toggle="lightbox" data-title="Climb to Success"
-               data-footer="2010, hand-drawing &amp; Photoshop" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art1.jpg"></a>
+    <div class="section" data-anchor="projects" id="projects1">
+      <div class="container-fluid no-padding">
 
-            <a href="images/larger/art2.jpg" data-toggle="lightbox" data-title="With and For Love"
-               data-footer="2009, hand-drawing &amp; Photoshop" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art2.jpg"></a>
+        <div class="cover vertical-flex centered">
+          <div class="title">My experience</div>
+          <div class="subtitle">I worked as a full-time full stack software developer intern at Cadasta during summer 2017
+            and I built a website for a small tech-for-good NGO called Ascoderu.
+            I built many side projects for fun and for learning.
+            All my code is available on <a href="//github.com/laura-barluzzi?tab=repositories" target="_blank" data-toggle="tooltip" title="GitHub">GitHub</a>.
+          </div>
+        </div>
 
-            <a href="images/larger/art3.jpg" data-toggle="lightbox" data-title="Shared Suffering"
-               data-footer="2010, hand-drawing &amp; Photoshop" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art3.jpg"></a>
+        <div class="horizontal-flex body-showcase">
 
-            <a href="images/art4.jpg" data-toggle="lightbox" data-title="Lokole project logo"
-               data-footer="2016, InkScape &amp; Gimp" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art4.jpg"></a>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Full stack software developer intern</h4>
+              <p>Python/Django, Postgres, Javascript/jQuery, Django REST framework</p>
+              <a href="//github.com/Cadasta/cadasta-platform/pulls?q=is%3Apr+is%3Amerged+author%3Alaura-barluzzi" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/cadasta.png"/>
+          </div>
 
-            <a href="images/larger/art5.jpg" data-toggle="lightbox" data-title="Praying for the Best"
-               data-footer="2007, hand-drawing &amp; Photoshop" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art5.jpg"></a>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Web developer volunteer</h4>
+              <p>I built the website of Ascoderu, a small tech-for-good NGO</p>
+              <p>Javascript/jQuery, HTML/CSS, Fullpage.js</p>
+              <a href="//ascoderu.ca/" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/ascoderu.png"/>
+          </div>
 
-            <a href="images/larger/art6.jpg" data-toggle="lightbox" data-title="Family"
-               data-footer="2015, Collage &amp; Photoshop" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art6.jpg"></a>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Hacktoberfest 2017</h4>
+              <p>I pair-programmed adding backends to TorPaste</p>
+              <p>Azure, AWS S3</p>
+              <a href="//github.com/DaKnOb/TorPaste/pulls?q=is%3Apr+is%3Amerged+author%3Alaura-barluzzi" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/hacktoberfest.png"/>
+          </div>
 
-            <a href="images/larger/art7.jpg" data-toggle="lightbox" data-title="The Love of Koala & Mouse"
-               data-footer="2016, Acrylic on canvas" data-toggle="tooltip" title="enlarge me">
-              <img class="img-thumbnail img-responsive" data-src="images/art7.jpg"></a>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Poll Voting App</h4>
+              <p>React.js, React-Boostrap.js, Node/Express.js, Azure Active Directory login, Azure Table Storage, Heroku</p>
+              <a href="//boiling-dusk-67478.herokuapp.com" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/voting-app.png"/>
+          </div>
+
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Chat App</h4>
+              <p>Node/Express.js, socket.io, Heroku</p>
+              <a href="//damp-brook-78043.herokuapp.com" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/chat-app.png"/>
+          </div>
+
+          <div  class="thumbnail">
+            <div class="caption">
+              <h4>Wiki Viewer</h4>
+              <p>Javascript/jQuery, Wikipedia API, ajax</p>
+              <a href="//codepen.io/Laura-Barluzzi/full/GNVowN/" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/coding4.png"/>
+          </div>
+
+          <div  class="thumbnail">
+            <div class="caption">
+              <h4>Twitch TV stream</h4>
+              <p>Javascript/jQuery, HTML/CSS, Twitch API</p>
+              <a href="//codepen.io/Laura-Barluzzi/full/GrKbNx/" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/coding7.png"/>
+          </div>
 
         </div>
       </div>
     </div>
 
-    <div class="section" id="NGOs3">
-      <div class="container-fluid">
+    <div class="section" data-anchor="education" id="education2">
+      <div class="container-fluid no-padding">
 
-        <div class="intro-box">
-           <div class="title">NGOs &amp; international development</div>
-           <div class="subtitle">In the last 10-years I have gathered experiences at NGOs that
-           promote human rights and sustainable development &mdash; see my
-           <a href="images/larger/resume.pdf" target="_blank"
-              data-toggle="tooltip" title="open my resume">CV</a>. I also obtained a BSc
-           in International Studies and a
-           <a href="images/larger/MSc.jpg" target="_blank" data-toggle="tooltip" title="see my master degree">
-           MSc in International Development</a>.
-           </div>
+        <div class="cover vertical-flex centered bg-white">
+          <div class="title">Education</div>
+          <div class="subtitle">After obtaining a BSc in international studies and a MSc in international development,
+            I chose to change career and study programming instead. I realized that technology is playing such a crucial role
+            in development that I decided to learn the skills to be able to contribute for ongoing and future social changes.
+          </div>
         </div>
 
-        <div class="box-display">
-
-          <a class="thumbnail" id="job1" rel="modal" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/art4.jpg">
-            COO &amp; Fundraiser
-          </a>
-
-          <a class="thumbnail" id="job2" rel="modal" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/ngo2.jpg">
-            Office assistant
-          </a>
-
-          <a class="thumbnail" id="job3" rel="modal" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/ngo3.jpg">
-            Project coordinator
-          </a>
-
-          <a href="//bccic.ca/wp-content/uploads/2016/02/BCCIC_FinalTechnicalReport_IDRCSmallCitiesandTowns.pdf" class="thumbnail" target="_blank" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/ngo5.jpg">
-            Co-author report
-          </a>
-
-          <a href="//bccic.ca/wp-content/uploads/2016/06/Keeping-Track-Measuring-Progress-Toward-the-UN-Sustainable-Development-Goals-24.06.2016.pdf" class="thumbnail" target="_blank" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/ngo4.jpg">
-            Co-author &amp; editor
-          </a>
-
-          <a class="thumbnail" id="job6" rel="modal" data-toggle="tooltip" title="see more information">
-            <img class="img-dimention" data-src="images/ngo6.png">
-            Manager assistant
-          </a>
-
+        <div class="horizontal-flex body-showcase">
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Udemy</h4>
+              <p>The Complete Node.js Developer Course</p>
+              <a href="//www.udemy.com/certificate/UC-2SE5GC9M/" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/udemy.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Free Code Camp</h4>
+              <a href="//www.freecodecamp.org/laura-barluzzi" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/freecodecamp.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Tic Tac Toe game</h4>
+              <p>Javascript/jQuery, HTML/CSS</p>
+              <a href="//codepen.io/Laura-Barluzzi/full/VPrqML/" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/coding3.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Pomodoro clock</h4>
+              <p>Javascript/jQuery, HTML/CSS</p>
+              <a href="//codepen.io/Laura-Barluzzi/full/pRemdd/" class="label label-danger" target="_blank">View</a></p>
+            </div>
+            <img class="img-responsive" data-src="images/coding5.jpg"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>MIT OpenCourseWare</h4>
+              <p>Introduction to Computer Science and Programming</p>
+              <a href="//ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/mit.jpeg"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>Learn Python the Hard Way</h4>
+              <a href="//github.com/laura-barluzzi/Learn-Python-hard-way" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/coding1.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>MSc in International Development</h4>
+              <a href="images/docs/master.jpg" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/ediburgh.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>BSc in International Studies</h4>
+              <a href="images/docs/degree.jpg" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/trento.png"/>
+          </div>
+          <div class="thumbnail">
+            <div class="caption">
+              <h4>1 year on exchange</h4>
+              <a href="//www.bath.ac.uk" class="label label-danger" target="_blank">View</a>
+            </div>
+            <img class="img-responsive" data-src="images/bath.png"/>
+          </div>
         </div>
       </div>
     </div>
 
-
-    <div class="section" id="about-contact4">
-      <div class="container-fluid">
-
-              <div class="intro-box">
-                <div class="title">About me</div>
-                <img class="profile-image img-responsive" data-src="images/profile.png">
-                <div class="subtitle">I am passionate about three things:</br> <b>1) Efficiency.</b> Inefficiency around me made me desire to be a programmer & web-developer.</br> <b>2) Justice.</b> Social unjustice gets under my skin since I was 15, and it drives
-                  me to be an active and involved good citizen. </br> <b>3) Creativity.</b> Through art I reach countless amount of satisfaction and inner peace.</div>
-                <div class="subtitle top-space">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>: <a href="mailto:laura@koalacoder.com" data-toggle="tooltip" title="send me an email">laura@koalacoder.com</a> <span class="after-slash"></span>
-                  <span class="skype"><i class="fa fa-skype" aria-hidden="true"></i>: labarluzzi</span></div>
-              </div>
-
-              <div class="half-box" id="contact-form">
-                <div class="title">Contact me</div>
-                <form action="#">
-                  <div class="container-fluid">
-                    <div class="row">
-
-                      <div class="col-xs-6 col-md-6" style="padding-left: 0; padding-right: 5px">
-                        <label for="fname">First Name:</br></label>
-                        <input type="text" id="fname" placeholder="your name"></input>
-                      </div>
-
-                      <div class="col-xs-6 col-md-6" style="padding-left: 5px; padding-right: 0">
-                        <label for="lname">Last Name:</br></label>
-                        <input type="text" id="lname" placeholder="your surname"></input>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <label for="e-address">Email Address:</br></label>
-                  <input type="text" id="e-address" placeholder="your email"></input>
-
-                  <textarea>Write here...</textarea>
-
-                  <div style="text-align: center"><input type="submit" class="btn btn-primary" value="Send"></div>
-                </form>
-              </div>
-
-      </div>
-    </div>
   </div>
-
+  </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.extensions.min.js"></script>
   <script src="script.js"></script>
 
 </body>
